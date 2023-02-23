@@ -1,4 +1,7 @@
 import './style.css';
+import './Add.png';
+import './delete.png';
+import './Refresh.png';
 
 const tasksData = [
   {
