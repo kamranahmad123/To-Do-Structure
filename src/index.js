@@ -1,7 +1,4 @@
 import './style.css';
-import './Add.png';
-import './delete.png';
-import './Refresh.png';
 
 const tasksData = [
   {
@@ -15,7 +12,6 @@ const tasksData = [
     completed: false,
     index: 2,
   },
-
 ];
 
 tasksData.forEach((element) => {
@@ -27,7 +23,6 @@ tasksData.forEach((element) => {
   checkBox.setAttribute('type', 'checkBox');
   checkBox.innerHTML = `${element.completed}`;
   task.innerHTML = `${element.description}`;
-
   deleteButton.src = './delete.png';
 
   li.classList.add('list');
