@@ -1,0 +1,89 @@
+.list-entry {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  background-color: rgb(206, 194, 194);
+}
+
+.toDo-list {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 45%;
+  margin: 18% 30%;
+}
+
+.border {
+  border-bottom: solid 1px rgb(192, 186, 186);
+  width: 100%;
+  margin-left: -20px;
+}
+
+.deleteButton {
+  height: 40px;
+  cursor: pointer;
+  margin-left: -30%;
+  margin-top: 4px;
+}
+
+.description {
+  margin-right: 90%;
+}
+
+.refreshButton,
+.addButton {
+  width: 13px;
+  height: 15px;
+  margin-right: 30px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+
+.addButton {
+  margin-top: 8px;
+}
+
+.message {
+  margin-left: 5px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+}
+
+.placeholder {
+  width: 92%;
+  height: 30px;
+  margin-left: 20px;
+  border: transparent;
+  font-style: italic;
+}
+
+@media only screen and (max-width: 600px) {
+  .deleteButton {
+    margin-left: -50%;
+  }
+
+  .placeholder {
+    width: 80%;
+  }
+}
+
+.clear {
+  border: transparent;
+  height: 40px;
+  margin-top: -20px;
+  cursor: pointer;
+}
+
+.input {
+  display: flex;
+}
