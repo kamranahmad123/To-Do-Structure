@@ -1,5 +1,6 @@
 export const inputTask = document.getElementById('input-area');
 export const addButton = document.querySelector('.addButton');
+// eslint-disable-next-line import/no-mutable-exports
 export let tasksData = JSON.parse(localStorage.getItem('task')) || [];
 
 const taskRemover = (tasknumber) => {
