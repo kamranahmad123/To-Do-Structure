@@ -47,7 +47,6 @@ jobs:
       - name: Stylelint Report
         run: npx stylelint "**/*.{css,scss}"
   eslint:
-  run: npm install html-webpack-plugin
     name: ESLint
     runs-on: ubuntu-22.04
     steps:
