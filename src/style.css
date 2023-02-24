@@ -29,12 +29,17 @@ body {
   height: 40px;
   cursor: pointer;
   margin-left: -30%;
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .description {
-  margin-right: 90%;
+  display: flex;
+  margin-left: -30%;
+  width: 80%;
+  border: none;
+
 }
+
 
 .refreshButton,
 .addButton {
@@ -86,4 +91,8 @@ body {
 
 .input {
   display: flex;
+}
+
+.checkBox {
+  border: solid black;
 }

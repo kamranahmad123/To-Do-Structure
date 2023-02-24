@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="style.css"> -->
     <title>To Do List</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
+  <script defer type="module" src="index.js"></script>
 <section class="toDo-list">
      <div class="first">   
         <p class="message">Today's To Do</p>
@@ -15,7 +17,7 @@
       </div> 
         <form>
           <section class="input">
-            <input class="placeholder" placeholder="Add to your list">
+            <input type="text" class="placeholder" id="input-area" placeholder="Add to your list">
             <img class ="addButton" src="./Add.png">
           </section>
       </form>     
