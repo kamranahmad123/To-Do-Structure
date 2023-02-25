@@ -1,12 +1,10 @@
 export const inputTask = document.getElementById('input-area');
 export const addButton = document.querySelector('.addButton');
-// ES6 does not support mutable export that I have here so this one line effects the entire code
-// eslint-disable-next-line import/no-mutable-exports
-export let tasksData = JSON.parse(localStorage.getItem('task')) || [];
-
+export const tasksData = JSON.parse(localStorage.getItem('task')) || [];
+let filterData = [];
 const taskRemover = (tasknumber) => {
-  tasksData = tasksData.filter((dailyTasks) => dailyTasks.index !== tasknumber);
-  localStorage.setItem('task', JSON.stringify(tasksData));
+  filterData = tasksData.filter((dailyTasks) => dailyTasks.index !== tasknumber) || [];
+  localStorage.setItem('task', JSON.stringify(filterData));
   window.location.reload();
 };
 export function executeData(input) {
@@ -16,11 +14,11 @@ export function executeData(input) {
     const li = document.createElement('li');
     const task = document.createElement('input');
     const checkBox = document.createElement('input');
-    const deleteButton = document.createElement('img');
+    const deleteButton = document.createElement('i');
+    deleteButton.setAttribute('class', 'fa-solid fa-trash');
     checkBox.setAttribute('type', 'checkBox');
     checkBox.value = `${element.completed}`;
     task.value = `${element.description}`;
-    deleteButton.src = './delete.png';
     deleteButton.onclick = () => taskRemover(element.index);
     li.classList.add('list');
     li.classList.add('border');
