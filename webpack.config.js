@@ -19,6 +19,9 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
+  optimization: {
+    runtimeChunk: 'single',
+  },
   module: {
     rules: [
       {
