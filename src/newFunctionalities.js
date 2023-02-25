@@ -1,5 +1,6 @@
 export const inputTask = document.getElementById('input-area');
 export const addButton = document.querySelector('.addButton');
+// ES6 does not support mutable export that I have here so this one line effects the entire code
 // eslint-disable-next-line import/no-mutable-exports
 export let tasksData = JSON.parse(localStorage.getItem('task')) || [];
 
