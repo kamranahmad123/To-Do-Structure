@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://kit.fontawesome.com/7415ea4535.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
     <title>To Do List</title>
-</head>
 <body>
   <script defer type="module" src="index.js"></script>
 <section class="toDo-list">
      <div class="first">   
         <p class="message">Today's To Do</p>
-        <img  class='refreshButton' src="./Refresh.png">
+        <i class="refreshButton fa-solid fa-rotate"></i>
       </div> 
         <form>
           <section class="input">
             <input type="text" class="placeholder" id="input-area" placeholder="Add to your list">
-            <img class ="addButton" src="./Add.png">
+            <i class="addButton fa-sharp fa-solid fa-turn-down"></i>
           </section>
-      </form>     
+      </form>   
       
     <ul class="list-entry"></ul>
     <button type='button' class="clear">Clear all completed</button>

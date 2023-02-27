@@ -52,9 +52,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add Books to a book list**
-- **Delete Books from the book list**
-- **Save data to local storage**
+- **Add and delete daily task list**
+- **mark tasks as completed**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,7 +143,7 @@ If you like this project give me a star.
 
 - **What is this project?**
 
-  - It's a  project of micoverse curriculum entitled awesome books.
+  - It's a  project of micoverse curriculum entitled To Do List.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
