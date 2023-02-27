@@ -22,9 +22,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books Es6 modules <a name="about-project"></a>
+# 📖 To Do List Project <a name="about-project"></a>
 
-**Awesome Books Es6 modules** is a website that allow users to create a book with title and author name and add to their books list on the page.
+**To Do List ** allows users to add, update and remove tasks from the list
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -52,9 +52,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Add Books to a book list**
-- **Delete Books from the book list**
-- **Save data to local storage**
+- **Add and delete daily task list**
+- **mark tasks as completed**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +90,7 @@ Clone this repository to your desired folder:
 You can deploy this project using 
 > [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-> [github html preview](https://github.com/kamranahmad123/To-Do-Structure/tree/list-structure) and paste index adress into it to view.
+> [github html preview](https://github.com/kamranahmad123/To-Do-Structure/tree/add-remove-todos) and paste index adress into it to view.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -144,7 +143,7 @@ If you like this project give me a star.
 
 - **What is this project?**
 
-  - It's a  project of micoverse curriculum entitled awesome books.
+  - It's a  project of micoverse curriculum entitled To Do List.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

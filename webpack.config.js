@@ -3,17 +3,25 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   mode: 'production',
-  entry: './src/index.js',
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
-    clean: true,
+  entry: {
+    index: path.resolve(__dirname, './src/index.js'),
   },
+  output: {
+
+    path: path.resolve(__dirname, 'dist'),
+    filename: '[name].js',
+  },
+  devServer: {
+    static: './dist',
+  },
+  plugins: [
+
+    new HtmlWebpackPlugin(
+      {
+        template: path.resolve(__dirname, './src/index.html'),
+      },
+    ),
+  ],
   module: {
     rules: [
       {
@@ -21,9 +29,12 @@ module.exports = {
         use: ['style-loader', 'css-loader'],
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(?:ico|gif|png|jpg|jpeg)$/i,
         type: 'asset/resource',
       },
     ],
+  },
+  optimization: {
+    runtimeChunk: 'single',
   },
 };

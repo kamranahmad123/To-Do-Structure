@@ -26,14 +26,17 @@ body {
 }
 
 .deleteButton {
-  height: 40px;
+  height: 30px;
   cursor: pointer;
   margin-left: -30%;
-  margin-top: 4px;
+  margin-top: 10px;
 }
 
 .description {
-  margin-right: 90%;
+  display: flex;
+  margin-left: -30%;
+  width: 80%;
+  border: none;
 }
 
 .refreshButton,
@@ -86,4 +89,8 @@ body {
 
 .input {
   display: flex;
+}
+
+.checkBox {
+  border: solid black;
 }
