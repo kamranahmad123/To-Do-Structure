@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-#### <a href="https://kamranahmad123.github.io/To-Do-Structure/">Live Demo Link</a>
+#### <a href="https://kamranahmad123.github.io/To-Do-Structure/dist/">Live Demo Link</a>
 
 
 
