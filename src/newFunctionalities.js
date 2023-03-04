@@ -4,9 +4,14 @@ export const inputTask = document.getElementById('input-area');
 export const addButton = document.querySelector('.addButton');
 export const tasksData = JSON.parse(localStorage.getItem('task')) || [];
 let filterData = [];
+
+export function storage(storageData) {
+  localStorage.setItem('task', JSON.stringify(storageData));
+}
+
 const taskRemover = (tasknumber) => {
   filterData = tasksData.filter((dailyTasks) => dailyTasks.index !== tasknumber.index) || [];
-  localStorage.setItem('task', JSON.stringify(filterData));
+  storage(filterData);
   window.location.reload();
 };
 
@@ -38,6 +43,6 @@ export function executeData(input) {
 export const getData = () => {
   const objData = { description: inputTask.value, completed: false, index: null };
   tasksData.push(objData);
-  localStorage.setItem('task', JSON.stringify(tasksData));
+  storage(tasksData);
   window.location.reload();
 };
