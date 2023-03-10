@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import checkDelete from './completionStatus.js';
-import deleteMultiple from './deleteSelected.js';
+
 import {
   getData, getStorage, taskRemover, updateDescription,
 } from './newFunctionalities.js';
