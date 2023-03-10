@@ -1,24 +1,24 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 To Do List Project ](#-to-do-list-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+      - [Live Demo Link](#live-demo-link)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Setup](#setup)
+    - [Deployment](#deployment)
+  - [👥 Authors](#-authors)
+  - [👥 Authors](#-authors-1)
+  - [🔭 Future-feature ](#-future-feature-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -102,6 +102,17 @@ __Kamran Ahmad__
 - GitHub: [@githubhandle](https://github.com/kamranahmad123) 
 - Twitter: [@twitterhandle](https://twitter.com/handel)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamran-khan-9a293b113/)
+
+
+## 👥 Authors 
+<a name="authors"></a>
+
+👤 **Kamran Ahmad**
+__Kamran Ahmad__
+- GitHub: [@githubhandle](https://github.com/EnixWord) 
+- Twitter: [@twitterhandle]
+- LinkedIn: [LinkedIn]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
