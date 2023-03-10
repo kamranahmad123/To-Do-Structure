@@ -70,20 +70,17 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
-
-
-
 ### Setup
-
-Clone this repository to your desired folder:
-
-
+1- Clone this repository to your desired folder:
 
 ```sh
   git clone https://github.com/kamranahmad123/To-Do-Structure/tree/main
 ```
+2- Run npm install for running the project locally after clonning up:
 
+3- Run'npm test' command for testing:
 
+4- Run 'npm start' for running the project:
 
 ### Deployment
 
@@ -108,9 +105,9 @@ __Kamran Ahmad__
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
+## 🔭 Future-feature <a name="future-features"></a>
 
-- [ ] **Java script only, to do a simple CRUD**
+- [ ] **Javascript only, to do a simple CRUD**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -1,12 +1,9 @@
-export default function checkDelete(checkEntry, tasksData) {
-  tasksData.forEach((y) => {
-    if (y.index === checkEntry.index && checkEntry.completed === true) {
-      y.completed = false;
-      localStorage.setItem('task', JSON.stringify(tasksData));
-    } else if (y.index === checkEntry.index && checkEntry.completed === false) {
-      y.completed = true;
-      localStorage.setItem('task', JSON.stringify(tasksData));
+export default function checkDelete(id, tasksData) {
+  tasksData = tasksData.map((task) => {
+    if (task.index === Number(id)) {
+      return { ...task, completed: !task.completed };
     }
+    return task;
   });
-  window.location.reload();
+  localStorage.setItem('task', JSON.stringify(tasksData));
 }
