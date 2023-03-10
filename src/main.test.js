@@ -44,3 +44,12 @@ describe('Update status Method', () => {
     expect(getStorage()[0].completed).toBe(true);
   });
 });
+
+describe('clear completed tasks Method', () => {
+  it('Select task to remove', () => {
+    // act
+    deleteMultiple();
+    // assert
+    expect(getStorage()).toHaveLength(2);
+  });
+});
