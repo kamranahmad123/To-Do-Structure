@@ -94,25 +94,13 @@ You can deploy this project using
 
 <!-- AUTHORS -->
 
-## 👥 Authors 
+## 👥 Author 
 <a name="authors"></a>
 
 👤 **Kamran Ahmad**
-__Kamran Ahmad__
 - GitHub: [@githubhandle](https://github.com/kamranahmad123) 
 - Twitter: [@twitterhandle](https://twitter.com/handel)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/kamran-khan-9a293b113/)
-
-
-## 👥 Authors 
-<a name="authors"></a>
-
-👤 **Kamran Ahmad**
-__Kamran Ahmad__
-- GitHub: [@githubhandle](https://github.com/EnixWord) 
-- Twitter: [@twitterhandle]
-- LinkedIn: [LinkedIn]
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
