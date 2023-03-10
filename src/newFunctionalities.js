@@ -26,7 +26,6 @@ export function executeData(input) {
       taskRemover(element.index);
       window.location.reload();
     });
-    // checkBox.onclick = () => checkDelete(element.index, tasksData);
     checkBox.addEventListener('click', () => {
       checkDelete(element.index, tasksData);
       window.location.reload();
