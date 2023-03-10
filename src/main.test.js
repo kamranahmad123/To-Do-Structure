@@ -1,6 +1,7 @@
 /**
  * @jest-environment jsdom
  */
+import deleteMultiple from './deleteSelected.js';
 import checkDelete from './completionStatus.js';
 
 import {
