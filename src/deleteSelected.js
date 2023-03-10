@@ -1,9 +1,7 @@
-import { tasksData, storage } from './newFunctionalities.js';
+import { getStorage, storage } from './newFunctionalities.js';
 
-let filterData2 = [];
 export default function deleteMultiple() {
-  filterData2 = tasksData.filter((dailyTasks) => dailyTasks.completed !== true) || [];
-  // changes
-  storage(filterData2);
-  window.location.reload();
+  let filterData = getStorage().filter((dailyTasks) => dailyTasks.completed !== true) || [];
+  filterData = filterData.map((dailyTask, i) => ({ ...dailyTask, index: i + 1 }));
+  storage(filterData);
 }

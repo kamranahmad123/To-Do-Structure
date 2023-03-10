@@ -2,7 +2,7 @@
  * @jest-environment jsdom
  */
 import {
-  getData, getStorage,
+  getData, getStorage, taskRemover,
 } from './newFunctionalities.js';
 
 describe('Add-to-do method', () => {
@@ -11,8 +11,9 @@ describe('Add-to-do method', () => {
     getData('Reading');
     getData('Swimming');
     getData('Assingment');
+    getData('Cycling');
     // assert
-    expect(getStorage()).toHaveLength(3);
+    expect(getStorage()).toHaveLength(4);
   });
 });
 
@@ -21,6 +22,6 @@ describe('Remove Method', () => {
     // act
     taskRemover(1);
     // assert
-    expect(getStorage()).toHaveLength(2);
+    expect(getStorage()).toHaveLength(3);
   });
 });
